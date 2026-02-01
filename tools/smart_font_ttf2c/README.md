@@ -17,7 +17,7 @@ uv sync
 ## Usage
 
 ```bash
-uv run convert.py [FONT_FILE] --sizes [SIZES...] --name [VAR_NAME] --out [OUTPUT_DIR]
+uv run convert.py [FONT_FILE] --sizes [SIZES...] --name [VAR_NAME] --out ./output
 ```
 
 ### Arguments

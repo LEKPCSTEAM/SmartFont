@@ -3,6 +3,13 @@
 A generic C++ font library for embedded systems (Arduino, ESP32, etc.), designed for efficient rendering of **UTF-8** strings on pixel-based displays.
 It features special support for **Thai Language**, correctly positioning vowels and tone marks (0x0E00 - 0x0E7F).
 
+## Overview
+
+<img src="docs/IMG_2562.gif" width="600"/>
+</br>
+<img src="docs/IMG_2555.JPG" width="300"/>
+<img src="docs/IMG_2560.JPG" width="300"/>
+
 ## Features
 
 - **UTF-8 Support**: Handles multi-byte characters automatically.
@@ -49,6 +56,7 @@ SmartFont smartFont(myDrawPixel, myClearPixel);
 void setup() {
   smartFont.setFont(&font_th_sarabun_new_regular16);
   smartFont.setPos(0, 20);
+  smartFont.print("Hello");
   smartFont.print("สวัสดีครับ");
 }
 ```
