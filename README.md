@@ -5,7 +5,7 @@ It features special support for **Thai Language**, correctly positioning vowels 
 
 ## Overview
 
-<img src="docs/IMG_2562.gif" width="600"/>
+![gif](docs/IMG_2562.gif)
 </br>
 <img src="docs/IMG_2555.JPG" width="300"/>
 <img src="docs/IMG_2560.JPG" width="300"/>
