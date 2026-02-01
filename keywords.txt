@@ -1,0 +1,26 @@
+#######################################
+# Syntax Coloring Map For SmartFont
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+SmartFont	KEYWORD1
+smart_font_info_t	KEYWORD1
+smart_font_bitmap_t	KEYWORD1
+smart_font_symbol_t	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+setFont	KEYWORD2
+setPos	KEYWORD2
+print	KEYWORD2
+getWidth	KEYWORD2
+setResolution	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
